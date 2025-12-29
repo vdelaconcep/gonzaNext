@@ -9,14 +9,14 @@ export const navigationItems = [
         subItems: [
             {
                 title: "Botones",
-                link: "/botones"
+                link: "ui/botones"
             },
             {
                 title: "Tarjetas",
-                link: "/tarjetas"
+                link: "ui/tarjetas"
             },
             {
-                title: "Item secundario",
+                title: "Tarjetas de producto",
                 link: ""
             }
         ]
