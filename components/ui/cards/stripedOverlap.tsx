@@ -7,7 +7,7 @@ export default function StripedOverlapCard({ addClass, background }: StripedOver
     return (
         <article className={`${addClass && addClass} w-full md:w-75 pr-4 relative`}>
             <div
-                className="w-full rounded-lg p-4 shadow-sm shadow-gray-800"
+                className="w-full rounded-lg p-4 shadow-md shadow-gray-800"
                 style={{ backgroundImage: 'repeating-linear-gradient(-45deg, black 0, black 10px, #691415 10px, #691415 20px' }}
             >
                 <div className="invisible">
